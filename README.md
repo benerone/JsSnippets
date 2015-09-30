@@ -14,7 +14,7 @@ getAbsolutePosition=function (relatedObj, lpoint) {
   var alp = $V([lpoint.x, lpoint.y, 1.0]);        
   var co = relatedObj;
   var mt,st,rt, comb,fcomb=Matrix.I(3);
-  while (co != undefined) {
+  while (co !== undefined) {
     mt = $M([
       [1, 0, co.left],
       [0, 1, co.top],
@@ -49,7 +49,7 @@ getLocalPosition= function (relatedObj, apoint) {
   var vlp = $V([apoint.x, apoint.y, 1.0]);
   var co = relatedObj;
   var mt, st,rt, comb,fcomb=Matrix.I(3);
-  while (co != undefined) {
+  while (co !== undefined) {
     mt = $M([
       [1, 0, -co.left],
       [0, 1, -co.top],

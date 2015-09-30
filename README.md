@@ -2,8 +2,12 @@
 
 ## fabric.js: transform absolute to local coordinates of related object
 
-require matrix library [Sylvester](http://sylvester.jcoglan.com/)
-require fabric object property originX and originY equal to 'center'
+### Requirement
+
+* require matrix library [Sylvester](http://sylvester.jcoglan.com/)
+* require fabric object property originX and originY equal to 'center'
+
+### Code
 
 ```javascript
 getAbsolutePosition=function (relatedObj, lpoint) {
@@ -33,8 +37,12 @@ getAbsolutePosition=function (relatedObj, lpoint) {
 
 ## fabric.js: transform local to absolute coordinates of related object
 
-require matrix library [Sylvester](http://sylvester.jcoglan.com/)
-require fabric object property originX and originY equal to 'center'
+### Requirement
+
+* matrix library [Sylvester](http://sylvester.jcoglan.com/)
+* fabric object property originX and originY equal to 'center'
+
+### Code
 
 ```javascript
 getLocalPosition= function (relatedObj, apoint) {

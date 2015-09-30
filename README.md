@@ -1,6 +1,6 @@
 # Javascript Snippets
 
-## fabric.js: transform absolute to local coordinates of related object
+## fabric.js: transform local to absolute coordinates of related object
 
 ### Requirement
 
@@ -35,7 +35,7 @@ getAbsolutePosition=function (relatedObj, lpoint) {
 }
 ```
 
-## fabric.js: transform local to absolute coordinates of related object
+## fabric.js: transform absolute to local coordinates of related object
 
 ### Requirement
 
